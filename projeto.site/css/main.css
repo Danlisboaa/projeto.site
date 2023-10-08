@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+}
+.hero {
+    background-image: url(../img/baner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 400px;
+    width: 1000px;
+}
+.nav-links {
+    background-color: #191919;
+    height: 70px;
+    width: 950px;
+    border-radius: 12px 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.logo {
+    width:60px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.hero-content {
+    margin: 100px auto 0;
+    width:60% ;
+    color: #FFFFFF;
+    text-align: center;
+}
+.nav-links ul li{
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding: 0px 20px;
+    margin-top: 25px;
+
+}
+.nav-links li a{
+    color: #FFFFFF;
+    transition:all 0.3s ;
+}
+.nav-links li a:hover{
+    color:#E5E5E5
+}
+.nav-links image{
+  
+}
